@@ -710,7 +710,8 @@ justify-content: space-between;
 
 
 .cont_header nav .new{
-    color:#000040;
+    color:#000040!important;
+    cursor: pointer;
     font-weight: bold;
     border-radius: 2em;
     padding: 5px 10px;
@@ -718,6 +719,9 @@ justify-content: space-between;
 }
 
 
+.cont4_footer p a{
+    color:#000040;
+}
 
 
 
@@ -1011,6 +1015,9 @@ justify-content: space-between;
 }
 
 
+.titulo_men_oc{
+    padding-top: 46px;
+}
 
 
 
@@ -1019,6 +1026,18 @@ justify-content: space-between;
 
 
 
+
+@media (max-width: 400px){
+   
+.login{
+    display: none;
+}
+
+.titulo_men_oc{
+    padding: 0;
+}
+
+}
 
 
 
@@ -1102,6 +1121,7 @@ justify-content: space-between;
 
     .cont_prin {
         width: 99%;
+        padding: 10px 0;
     }
 
 .cont_prin h1{
